@@ -7,7 +7,7 @@ public class OutputOfRom {
         if (payment <= 10 & payment > 0) {
             otvet = switch (payment) {
                 case 1:
-                    yield "X";
+                    yield "I";
                 case 2:
                     yield "II";
                 case 3:
@@ -37,7 +37,7 @@ public class OutputOfRom {
                 String result4;
                 result3 = switch (result1) {
                     case 1:
-                        yield "I";
+                        yield "X";
                     case 2:
                         yield "XX";
                     case 3:
