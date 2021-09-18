@@ -36,6 +36,8 @@ public class OutputOfRom {
                 String result3;
                 String result4;
                 result3 = switch (result1) {
+                    case 1:
+                        yield "I";
                     case 2:
                         yield "XX";
                     case 3:
