@@ -7,7 +7,7 @@ public class OutputOfRom {
         if (payment <= 10 & payment > 0) {
             otvet = switch (payment) {
                 case 1:
-                    yield "I";
+                    yield "X";
                 case 2:
                     yield "II";
                 case 3:
